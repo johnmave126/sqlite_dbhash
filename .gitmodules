@@ -1,0 +1,4 @@
+[submodule "test-suite/sqlite"]
+	path = test-suite/sqlite
+	url = https://github.com/sqlite/sqlite.git
+	shallow = true

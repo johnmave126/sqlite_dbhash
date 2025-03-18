@@ -1,0 +1,23 @@
+[package]
+name = "sqlite_dbhash"
+version = "0.1.0"
+authors = ["Shuhao Tan <johnmave126@gmail.com>"]
+categories = ["database"]
+keywords = ["sqlite", "database"]
+description = "sqlite dbhash as a library"
+license = "blessing"
+edition = "2024"
+
+[workspace]
+members = ["test-suite"]
+
+[features]
+tracing = ["dep:tracing"]
+
+[dependencies]
+rusqlite = "0.34.0"
+sha1 = "0.10.6"
+tracing = { version = "0.1.41", optional = true }
+
+[dev-dependencies]
+rusqlite = { version = "0.34.0", features = ["bundled-full"] }
