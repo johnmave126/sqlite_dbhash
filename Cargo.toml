@@ -5,6 +5,14 @@ authors = ["Shuhao Tan <johnmave126@gmail.com>"]
 categories = ["database"]
 keywords = ["sqlite", "database"]
 description = "sqlite dbhash as a library"
+documentation = "https://docs.rs/sqlite_dbhash"
+readme = "README.md"
+repository = "https://github.com/johnmave126/sqlite_dbhash"
+exclude = [
+    ".github/*",
+    ".gitmodules",
+]
+
 license = "blessing"
 edition = "2024"
 

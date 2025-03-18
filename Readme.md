@@ -1,4 +1,8 @@
 # sqlite_dbhash
+[![crate][crate-image]][crate-link]
+[![Docs][docs-image]][docs-link]
+![Public Domain][license-image]
+[![Build Status][build-image]][build-link]
 
 A Rust port of dbhash utility from sqlite repository so that it can be used as a library function instead of a standalone program.
 
@@ -34,3 +38,13 @@ The author disclaims copyright to this source code. In place of a legal notice, 
     May you find forgiveness for yourself and forgive others.
     May you share freely, never taking more than you give.
 ```
+
+[//]: # (badges and links)
+
+[crate-image]: https://img.shields.io/crates/v/sqlite_dbhash.svg
+[crate-link]: https://crates.io/crates/sqlite_dbhash
+[docs-image]: https://docs.rs/sqlite_dbhash/badge.svg
+[docs-link]: https://docs.rs/sqlite_dbhash/
+[license-image]: https://img.shields.io/crates/l/sqlite_dbhash
+[build-image]: https://github.com/johnmave126/sqlite_dbhash/actions/workflows/check.yml/badge.svg?branch=master&event=push
+[build-link]: https://github.com/johnmave126/sqlite_dbhash/actions/workflows/check.yml?query=branch:master
